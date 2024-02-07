@@ -1,0 +1,79 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, menu {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, button {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* STYLE */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* UTILITIES */
+
+.dir-column {
+    flex-direction: column;
+}
+
+/* DEBUG */
+
+/* APP */
+
+#app {
+    height: 100vh;
+    display: flex;
+}
+
+/* ASIDE */
+
+/* HEADER */
+
+/* MAIN */
+
+/* CHAT ICON */
+
+#app .chat-icon {
+    position: absolute;
+    background-color: #2F2DB4;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    z-index: 999;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+}
+
+#app .chat-icon:hover {
+    background-color: #7B8EFE;
+}
